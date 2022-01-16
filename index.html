@@ -43,13 +43,6 @@
 <img height="50" data-src="img/basics/uni-trier.png">
 
 
---
-## Überblick
-
-1. [Ziele der Sitzung und Ablaufplan](#/2)
-1. [Datenmodellierung und Datenerschließung mit XML](#/3)
-1. [Das Datenmodell der Weinetiketten](#/4)
-
 
 --
 ## Ziele der Sitzung und Ablaufplan
@@ -66,22 +59,22 @@
 ### Ablaufplan
 <small>
 
-| Zeit    | Format    |  Thema                                                         |
-|:--------|:---------:|:---------------------------------------------------------------|
-| 8h30    | Input     | Begrüßung                                                      |
-| 8h45    | Input     | Ein Beispiel zum Einstieg                                      |
-| 9h00    | Input     | Grundlagen von XML                                             |
-| 9h45    | Gemeinsam | Software-Installation                                          |
-| 10h15   | ---       | Pause                                                          |
-| 10h45   | Input     | Erschließung von Weinetiketten (Datenmodell)                   |
-| 12h00   | Tandems   | Praxis: Kodierung von Etiketten                                |
-| 13h00   | ---       | Pause                                                          |
-| 14h00   | Input     | Normdaten für die Kodierung                                    |
-| 15h00   | Tandems   | Hinzufügen von Normdaten zu den Etiketten                      |
-| 15h30   | ---       | Pause                                                          |
-| 16h00   | Gemeinsam | Probleme und Ideen für die Kodierung                           |
-| 16h30   | Input     | Perspektiven für die Auswertung und Analyse                    |
-| 17h00   | Input     | Abschlussdiskussion                                            |
+| Zeit    | Format    |  Thema                                               |
+|:--------|:---------:|:-----------------------------------------------------|
+| 8h30    | Input     | Begrüßung                                            |
+| 8h45    | Input     | [Ein Beispiel zum Einstieg](#/2)                     |
+| 9h00    | Input     | [Grundlagen von XML](#(3)                            |
+| 9h45    | Gemeinsam | [Software-Installation](#(4)                         |
+| 10h15   | ---       | Pause                                                |
+| 10h45   | Input     | [Erschließung von Weinetiketten (Datenmodell)](#(5)  |
+| 12h00   | Tandems   | [Praxis: Kodierung von Etiketten](#(6)               |
+| 13h00   | ---       | Pause                                                |
+| 14h00   | Input     | [Normdaten für die Kodierung](#(7)                   |
+| 15h00   | Tandems   | [Hinzufügen von Normdaten zu den Etiketten](#(8)     |
+| 15h30   | ---       | Pause                                                |
+| 16h00   | Gemeinsam | [Probleme und Ideen für die Kodierung](#(9)          |
+| 16h30   | Input     | [Perspektiven für die Auswertung und Analyse](#(10)  |
+| 17h00   | Input     | [Abschlussdiskussion](#(11)                          |
 
 </small>
 
@@ -100,7 +93,20 @@
 
 
 --
-## Installation von Visual Studio Code
+## Grundlagen von XML 
+
+
+---
+### Ressourcen 
+* XML-Einführung (Auszeichnungssprachen): https://github.com/dh-trier/Auszeichnungssprachen/raw/main/pdf/Markup-E04-Textauszeichnung.pdf
+
+
+---
+### Literaturhinweise
+
+
+--
+## Software-Installation:<br/>Visual Studio Code
 
 
 ---
@@ -111,16 +117,22 @@
 
 
 
-
 --
-## Systematische Erschließung von Weinetiketten: Datenmodell
+## Erschließung von Weinetiketten (Datenmodell)
 
 ---
 ### Überblick
+1. Was ist Datenmodellierung?
 1. Warum ein Datenmodell? 
 1. Konzeptuelle Ebene
 1. Dokumentation
 1. Schema-Datei
+
+
+---
+### Was ist Datenmodellierung? 
+* Recherche- / Brainstorming-Phase
+* Sammeln im Cryptpad (Link: siehe Wiki in StudIP)
 
 ---
 ### Warum ein Datenmodell?
@@ -149,8 +161,55 @@
 
 
 --
-## Übung in Tandems:<br/>Kodierung eines Weinetiketts
+## Praxis (in Tandems):<br/>Kodierung eines Weinetiketts
 
+
+
+
+--
+## Normdaten für die Kodierung 
+
+
+---
+### Was sind Normdaten? 
+* Normdaten werden von Bibliotheken oder anderen Infrastrukturen angeboten
+* Normdaten definieren und identifizieren Entitäten
+* Klassiker: die Gemeinsame Normdatendatei der DNB (Autoren, Werke, Sachthemen), siehe: <br/>https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd.html
+
+
+---
+### Wozu dienen Normdaten? 
+* Disambiguierung von Strings in Quellen
+* Eindeutige Identifikation von Entitäten
+* Algorithmische Auffinden weiterer Informationen
+* Vernetzung der Daten in der Linked Open Data Cloud
+
+
+---
+### Welche Normdaten sind relevant? 
+1. Ortsnamen: Identifier (und Geokoordinaten), bspw.: Wikidata, Getty Thesaurus
+1. Unternehmen: Identifier (und Ort), bspw.: Wikidata
+1. Weinlagen: Identifier (und Ort), bspw.: Lagenliste, Wikidata 
+1. Bildelemente: Identifier, bspw. Wikidata, ICONCLASS
+
+
+--
+## Hinzufügen von Normdaten 
+
+
+
+--
+## Probleme und Ideen für die Kodierung
+
+
+
+--
+## Perspektiven für die Auswertung und Analyse
+
+
+
+--
+## Abschlussdiskussion
 
 
 
