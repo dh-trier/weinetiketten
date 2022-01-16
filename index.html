@@ -26,22 +26,21 @@
          data-background-size="80px" 
          data-background-position="right 10px top 10px">
 
-
-
+<script type="text/template">
 <!-- ============ BEGINNING OF SLIDE CONTENT =========== -->
+<br/>
 
-#### Weinetiketten im Wandel (Blockseminar)
-
-<br/>
-<br/>
-<br/>
+### Weinetiketten im Wandel (Blockseminar)
 <br/>
 <hr/>
-
-Prof. Dr. Claudine Moulin und Prof. Dr. Christof Schöch
-Wintersemester 2021/2022 – Sitzung am 22.1.2022
-
+<br/>Sitzung am 22. Jan. 2022
+<br/>Prof. Dr. Christof Schöch
 <hr/>
+<br/>Wintersemester 2021/2022
+<br/>Universität Trier
+<br/>
+<hr/>
+<img height="50" data-src="img/basics/uni-trier.png">
 
 
 --
@@ -56,27 +55,47 @@ Wintersemester 2021/2022 – Sitzung am 22.1.2022
 ## Ziele der Sitzung und Ablaufplan
 
 ---
-### Ziele
+### Ziele 
+* Verständnis entwickeln für die Prinzipien und Details der digitalen Erschließung von Weinetiketten
+* Praktische Erfahrung sammeln bei der Kodierung von Etiketten in XML
+* Ideen für die Verbesserung des Vorgehens sammeln und ggfs. umsetzen
+* Ideen für die weitere Nutzung der Informationen entwickeln
 
 
 ---
 ### Ablaufplan
 <small>
 
-1. 
-
-
-
-
-
-
+| Zeit    | Format    |  Thema                                                         |
+|:--------|:---------:|:---------------------------------------------------------------|
+| 8h30    | Input     | Begrüßung                                                      |
+| 8h45    | Input     | Ein Beispiel zum Einstieg                                      |
+| 9h00    | Input     | Grundlagen von XML                                             |
+| 9h45    | Gemeinsam | Software-Installation                                          |
+| 10h15   | ---       | Pause                                                          |
+| 10h45   | Input     | Erschließung von Weinetiketten (Datenmodell)                   |
+| 12h00   | Tandems   | Praxis: Kodierung von Etiketten                                |
+| 13h00   | ---       | Pause                                                          |
+| 14h00   | Input     | Normdaten für die Kodierung                                    |
+| 15h00   | Tandems   | Hinzufügen von Normdaten zu den Etiketten                      |
+| 15h30   | ---       | Pause                                                          |
+| 16h00   | Gemeinsam | Probleme und Ideen für die Kodierung                           |
+| 16h30   | Input     | Perspektiven für die Auswertung und Analyse                    |
+| 17h00   | Input     | Abschlussdiskussion                                            |
 
 </small>
 
 
-
 --
-## Ziele der Sitzung und Ablaufplan
+## Ein Beispiel zum Einstieg
+
+---
+### Wiltinger 1939
+<a href="img/MSR-0002_Wiltingen_1200x.jpeg"><img height="300" data-src="img/MSR-0002_Wiltingen_1200x.jpeg"></a>
+<br/>
+
+* Bildatei (Wiltinger, 1939): https://raw.githubusercontent.com/dh-trier/wlv/master/msr/img/MSR-0002_Wiltingen_1200x.jpeg 
+* Kodierung in XML: https://raw.githubusercontent.com/dh-trier/wlv/master/msr/xml/MSR-0002_Wiltingen.xml
 
 
 
@@ -93,10 +112,51 @@ Wintersemester 2021/2022 – Sitzung am 22.1.2022
 
 
 
+--
+## Systematische Erschließung von Weinetiketten: Datenmodell
+
+---
+### Überblick
+1. Warum ein Datenmodell? 
+1. Konzeptuelle Ebene
+1. Dokumentation
+1. Schema-Datei
+
+---
+### Warum ein Datenmodell?
+* Konzeptuell: 
+  * Dokumentiert unser Verständnis der Struktur und Semantik des Gegenstands
+* Technisch: 
+  * Stellt die einheitliche Erschließung der Etiketten sicher
+  * Ermöglicht die automatische Weiterverarbeitung der Informationen
+
+---
+### Datenmodell (Übersicht)
+<a href="img/WLV-Datenmodell-Übersicht.png"><img height="500" data-src="img/WLV-Datenmodell-Übersicht.png"></a>
+
+
+---
+### Dokumentation 
+* Überblick zu Kodierung:<br/>https://github.com/dh-trier/wlv/wiki/Describing-wine-labels
+* Dokumentation aller Elemente und Attribute:<br/>https://github.com/dh-trier/wlv/blob/master/schemas/wlv-label-docs.md
+
+
+---
+### Schema-Datei
+* https://github.com/dh-trier/wlv/tree/master/schemas (RNG)
+
+
+
+
+--
+## Übung in Tandems:<br/>Kodierung eines Weinetiketts
+
+
+
 
 
 <!-- ============ END OF SLIDE CONTENT =========== -->
-
+</script>
 </section>
 </div>
 </div>
